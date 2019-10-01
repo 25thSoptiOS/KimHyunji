@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         
         // 변수에 이미지 할당
         img = UIImage(named: "instagram.jpg")
-        soptImg = UIImage(named: "sopt.jpg")
+        soptImg = UIImage(named: "sopt.tiff")
         afterBtn = UIImage(named: "like.png")
         beforeBtn = UIImage(named: "bin.png")
         
@@ -48,7 +48,7 @@ class ViewController: UIViewController {
 
     @IBAction func onClick(_ sender: Any) {
         if(check){
-            self.text.text = "sopt.iOS.Lover 님이 좋아합니다."
+            self.text.text = "h._.jiee 님이 좋아합니다."
             self.likeBtn.setImage(afterBtn, for: .normal)
             check = false
         }else {

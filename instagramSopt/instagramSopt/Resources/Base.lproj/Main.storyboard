@@ -21,8 +21,8 @@
                                     <constraint firstAttribute="height" constant="390" id="r9L-cH-Wn8"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sopt.iOS.Lover" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XL4-cq-pps">
-                                <rect key="frame" x="70" y="79" width="114" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="h._.jiee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XL4-cq-pps">
+                                <rect key="frame" x="70" y="87" width="68.333333333333314" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="XL4-cq-pps" secondAttribute="height" multiplier="114:35" id="zi2-qw-1AG"/>
                                 </constraints>
@@ -57,8 +57,30 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fim-CV-gH1">
-                                <rect key="frame" x="59" y="528" width="296" height="25"/>
-                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
+                                <rect key="frame" x="48" y="529" width="296" height="25"/>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="h._.jiee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kS-dE-Zpm">
+                                <rect key="frame" x="15" y="564" width="48" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="blm-3V-LqG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="48" id="fHX-cT-xrd"/>
+                                    <constraint firstAttribute="width" secondItem="4kS-dE-Zpm" secondAttribute="height" multiplier="48:19" id="z7Z-vm-v8I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25기 아요 체고!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nee-Px-6Dq">
+                                <rect key="frame" x="73" y="564" width="197" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Nee-Px-6Dq" secondAttribute="height" multiplier="98:19" constant="99" id="Kvp-nR-kjM"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="kOC-HQ-dvB"/>
+                                    <constraint firstAttribute="height" constant="19" id="swk-mM-F9V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -67,20 +89,25 @@
                         <constraints>
                             <constraint firstItem="0Ta-g8-poj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5xG-eR-keg"/>
                             <constraint firstItem="sjU-RM-SP6" firstAttribute="top" secondItem="1ks-nt-Eti" secondAttribute="bottom" constant="30" id="9O8-sK-nTk"/>
-                            <constraint firstItem="Fim-CV-gH1" firstAttribute="top" secondItem="0Ta-g8-poj" secondAttribute="bottom" constant="5" id="C7X-QS-5pM"/>
+                            <constraint firstItem="Fim-CV-gH1" firstAttribute="top" secondItem="0Ta-g8-poj" secondAttribute="bottom" constant="6" id="C7X-QS-5pM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nee-Px-6Dq" secondAttribute="trailing" constant="144" id="FxM-qn-5gb"/>
+                            <constraint firstItem="4kS-dE-Zpm" firstAttribute="top" secondItem="LMY-BS-aqd" secondAttribute="bottom" constant="8" id="Gfb-Ad-8Ul"/>
                             <constraint firstItem="LMY-BS-aqd" firstAttribute="leading" secondItem="sjU-RM-SP6" secondAttribute="leading" id="Juc-K6-nxc"/>
                             <constraint firstItem="0Ta-g8-poj" firstAttribute="trailing" secondItem="1ks-nt-Eti" secondAttribute="trailing" id="Jyq-SO-CZc"/>
+                            <constraint firstItem="4kS-dE-Zpm" firstAttribute="centerX" secondItem="sjU-RM-SP6" secondAttribute="centerX" constant="4" id="NMp-W9-rq4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="1ks-nt-Eti" secondAttribute="top" constant="2" id="NTn-hj-lmV"/>
-                            <constraint firstItem="Fim-CV-gH1" firstAttribute="bottom" secondItem="LMY-BS-aqd" secondAttribute="bottom" constant="-3" id="SvW-LS-m3Q"/>
-                            <constraint firstItem="XL4-cq-pps" firstAttribute="top" secondItem="1ks-nt-Eti" secondAttribute="bottom" constant="37" id="UeN-xK-0uk"/>
+                            <constraint firstItem="Nee-Px-6Dq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4kS-dE-Zpm" secondAttribute="trailing" constant="8" symbolic="YES" id="Nkj-Fm-mvr"/>
+                            <constraint firstItem="Fim-CV-gH1" firstAttribute="bottom" secondItem="LMY-BS-aqd" secondAttribute="bottom" constant="-2" id="SvW-LS-m3Q"/>
+                            <constraint firstItem="XL4-cq-pps" firstAttribute="top" secondItem="1ks-nt-Eti" secondAttribute="bottom" constant="45" id="UeN-xK-0uk"/>
                             <constraint firstAttribute="trailing" secondItem="0Ta-g8-poj" secondAttribute="trailing" id="VgI-ok-GAG"/>
-                            <constraint firstItem="Fim-CV-gH1" firstAttribute="leading" secondItem="LMY-BS-aqd" secondAttribute="trailing" constant="19" id="ZXN-IT-kry"/>
-                            <constraint firstItem="Fim-CV-gH1" firstAttribute="centerX" secondItem="0Ta-g8-poj" secondAttribute="centerX" id="aVh-IL-ees"/>
+                            <constraint firstItem="Fim-CV-gH1" firstAttribute="leading" secondItem="LMY-BS-aqd" secondAttribute="trailing" constant="8" id="ZXN-IT-kry"/>
+                            <constraint firstItem="Fim-CV-gH1" firstAttribute="centerX" secondItem="0Ta-g8-poj" secondAttribute="centerX" constant="-11" id="aVh-IL-ees"/>
                             <constraint firstItem="LMY-BS-aqd" firstAttribute="top" secondItem="0Ta-g8-poj" secondAttribute="bottom" constant="3" id="bti-Wu-JdN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XL4-cq-pps" secondAttribute="trailing" symbolic="YES" id="dS2-fO-2Wk"/>
                             <constraint firstItem="0Ta-g8-poj" firstAttribute="top" secondItem="sjU-RM-SP6" secondAttribute="bottom" constant="11" id="ifu-Q9-dPK"/>
                             <constraint firstItem="sjU-RM-SP6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="kJg-SW-8IE"/>
                             <constraint firstItem="XL4-cq-pps" firstAttribute="leading" secondItem="sjU-RM-SP6" secondAttribute="trailing" constant="10" id="maC-xu-Tzp"/>
+                            <constraint firstItem="Nee-Px-6Dq" firstAttribute="baseline" secondItem="4kS-dE-Zpm" secondAttribute="baseline" id="nZL-Md-z9d"/>
                             <constraint firstItem="0Ta-g8-poj" firstAttribute="leading" secondItem="1ks-nt-Eti" secondAttribute="leading" id="pR0-IP-8Ye"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -94,7 +121,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1535" y="-68"/>
+            <point key="canvasLocation" x="-1536.2318840579712" y="-68.478260869565219"/>
         </scene>
     </scenes>
     <resources>

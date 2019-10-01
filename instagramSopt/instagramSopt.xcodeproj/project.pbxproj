@@ -15,8 +15,8 @@
 		5286C73B23420D1D00F49FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5286C73A23420D1D00F49FF2 /* Assets.xcassets */; };
 		5286C73E23420D1D00F49FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5286C73C23420D1D00F49FF2 /* LaunchScreen.storyboard */; };
 		5286C74C234270F200F49FF2 /* instagram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5286C74B234270F200F49FF2 /* instagram.jpg */; };
-		5286C7502342757800F49FF2 /* sopt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5286C74F2342757800F49FF2 /* sopt.jpg */; };
 		5286C7522342D09000F49FF2 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 5286C7512342D09000F49FF2 /* like.png */; };
+		52DCDFA123431A3A006E9941 /* sopt.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 52DCDFA023431A3A006E9941 /* sopt.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		5286C73D23420D1D00F49FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5286C73F23420D1D00F49FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5286C74B234270F200F49FF2 /* instagram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instagram.jpg; sourceTree = "<group>"; };
-		5286C74F2342757800F49FF2 /* sopt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sopt.jpg; sourceTree = "<group>"; };
 		5286C7512342D09000F49FF2 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		52DCDFA023431A3A006E9941 /* sopt.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sopt.tiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +94,9 @@
 		5286C7482342706800F49FF2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				52DCDFA023431A3A006E9941 /* sopt.tiff */,
 				526C78852342E6C30079B1B1 /* bin.png */,
 				5286C7512342D09000F49FF2 /* like.png */,
-				5286C74F2342757800F49FF2 /* sopt.jpg */,
 				5286C74B234270F200F49FF2 /* instagram.jpg */,
 				5286C73523420D1B00F49FF2 /* ViewController.swift */,
 			);
@@ -162,11 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5286C73E23420D1D00F49FF2 /* LaunchScreen.storyboard in Resources */,
-				5286C7502342757800F49FF2 /* sopt.jpg in Resources */,
 				5286C73B23420D1D00F49FF2 /* Assets.xcassets in Resources */,
 				526C78862342E6C30079B1B1 /* bin.png in Resources */,
 				5286C74C234270F200F49FF2 /* instagram.jpg in Resources */,
 				5286C7522342D09000F49FF2 /* like.png in Resources */,
+				52DCDFA123431A3A006E9941 /* sopt.tiff in Resources */,
 				5286C73923420D1B00F49FF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
