@@ -1,3 +1,6 @@
 # KimHyunji
-SOPT 25기 iOS <br>
-김현지
+SOPT 25기 iOS 김현지 <br><br>
+## First Assignment
+* Auto Layout
+* Like Button
+
