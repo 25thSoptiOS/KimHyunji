@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="instagramSopt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Ta-g8-poj">
+                                <rect key="frame" x="0.0" y="133" width="414" height="390"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="390" id="r9L-cH-Wn8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sopt.iOS.Lover" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XL4-cq-pps">
+                                <rect key="frame" x="70" y="79" width="114" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="XL4-cq-pps" secondAttribute="height" multiplier="114:35" id="zi2-qw-1AG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sjU-RM-SP6">
+                                <rect key="frame" x="10" y="72" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="6F9-lJ-hze"/>
+                                    <constraint firstAttribute="width" secondItem="sjU-RM-SP6" secondAttribute="height" multiplier="1:1" id="Q6K-IL-DbD"/>
+                                    <constraint firstAttribute="height" constant="50" id="jYY-ix-bQN"/>
+                                </constraints>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ks-nt-Eti">
+                                <rect key="frame" x="0.0" y="-2" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Soptstagram" id="Bnf-Hf-58I"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMY-BS-aqd">
+                                <rect key="frame" x="10" y="526" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="LMY-BS-aqd" secondAttribute="height" multiplier="1:1" id="8Pd-xa-IMu"/>
+                                    <constraint firstAttribute="width" constant="30" id="byM-Hd-GWb"/>
+                                    <constraint firstAttribute="height" constant="30" id="sny-gx-8Cf"/>
+                                </constraints>
+                                <state key="normal" image="bin.png"/>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T8o-5O-Ldx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fim-CV-gH1">
+                                <rect key="frame" x="59" y="528" width="296" height="25"/>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0Ta-g8-poj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5xG-eR-keg"/>
+                            <constraint firstItem="sjU-RM-SP6" firstAttribute="top" secondItem="1ks-nt-Eti" secondAttribute="bottom" constant="30" id="9O8-sK-nTk"/>
+                            <constraint firstItem="Fim-CV-gH1" firstAttribute="top" secondItem="0Ta-g8-poj" secondAttribute="bottom" constant="5" id="C7X-QS-5pM"/>
+                            <constraint firstItem="LMY-BS-aqd" firstAttribute="leading" secondItem="sjU-RM-SP6" secondAttribute="leading" id="Juc-K6-nxc"/>
+                            <constraint firstItem="0Ta-g8-poj" firstAttribute="trailing" secondItem="1ks-nt-Eti" secondAttribute="trailing" id="Jyq-SO-CZc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="1ks-nt-Eti" secondAttribute="top" constant="2" id="NTn-hj-lmV"/>
+                            <constraint firstItem="Fim-CV-gH1" firstAttribute="bottom" secondItem="LMY-BS-aqd" secondAttribute="bottom" constant="-3" id="SvW-LS-m3Q"/>
+                            <constraint firstItem="XL4-cq-pps" firstAttribute="top" secondItem="1ks-nt-Eti" secondAttribute="bottom" constant="37" id="UeN-xK-0uk"/>
+                            <constraint firstAttribute="trailing" secondItem="0Ta-g8-poj" secondAttribute="trailing" id="VgI-ok-GAG"/>
+                            <constraint firstItem="Fim-CV-gH1" firstAttribute="leading" secondItem="LMY-BS-aqd" secondAttribute="trailing" constant="19" id="ZXN-IT-kry"/>
+                            <constraint firstItem="Fim-CV-gH1" firstAttribute="centerX" secondItem="0Ta-g8-poj" secondAttribute="centerX" id="aVh-IL-ees"/>
+                            <constraint firstItem="LMY-BS-aqd" firstAttribute="top" secondItem="0Ta-g8-poj" secondAttribute="bottom" constant="3" id="bti-Wu-JdN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XL4-cq-pps" secondAttribute="trailing" symbolic="YES" id="dS2-fO-2Wk"/>
+                            <constraint firstItem="0Ta-g8-poj" firstAttribute="top" secondItem="sjU-RM-SP6" secondAttribute="bottom" constant="11" id="ifu-Q9-dPK"/>
+                            <constraint firstItem="sjU-RM-SP6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="kJg-SW-8IE"/>
+                            <constraint firstItem="XL4-cq-pps" firstAttribute="leading" secondItem="sjU-RM-SP6" secondAttribute="trailing" constant="10" id="maC-xu-Tzp"/>
+                            <constraint firstItem="0Ta-g8-poj" firstAttribute="leading" secondItem="1ks-nt-Eti" secondAttribute="leading" id="pR0-IP-8Ye"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgSopt" destination="sjU-RM-SP6" id="q5h-SB-vJL"/>
+                        <outlet property="imgView" destination="0Ta-g8-poj" id="Adp-iR-via"/>
+                        <outlet property="likeBtn" destination="LMY-BS-aqd" id="EX7-dY-ZPg"/>
+                        <outlet property="text" destination="Fim-CV-gH1" id="iHA-AY-vII"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1535" y="-68"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bin.png" width="225" height="225"/>
+    </resources>
+</document>
