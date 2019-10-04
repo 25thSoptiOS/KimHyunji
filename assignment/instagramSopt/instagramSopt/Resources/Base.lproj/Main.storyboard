@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Ta-g8-poj">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram" translatesAutoresizingMaskIntoConstraints="NO" id="0Ta-g8-poj">
                                 <rect key="frame" x="0.0" y="133" width="414" height="390"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="390" id="r9L-cH-Wn8"/>
@@ -30,7 +30,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sjU-RM-SP6">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sopt" translatesAutoresizingMaskIntoConstraints="NO" id="sjU-RM-SP6">
                                 <rect key="frame" x="10" y="72" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="6F9-lJ-hze"/>
@@ -51,7 +51,7 @@
                                     <constraint firstAttribute="width" constant="30" id="byM-Hd-GWb"/>
                                     <constraint firstAttribute="height" constant="30" id="sny-gx-8Cf"/>
                                 </constraints>
-                                <state key="normal" image="bin.png"/>
+                                <state key="normal" image="bin"/>
                                 <connections>
                                     <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T8o-5O-Ldx"/>
                                 </connections>
@@ -125,6 +125,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bin.png" width="225" height="225"/>
+        <image name="bin" width="225" height="225"/>
+        <image name="instagram" width="3500" height="2360"/>
+        <image name="sopt" width="3024" height="3024"/>
     </resources>
 </document>

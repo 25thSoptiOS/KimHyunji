@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CandleVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CandleVC" customModule="switchCandle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="candle-off" translatesAutoresizingMaskIntoConstraints="NO" id="qXQ-YQ-lM6">
+                                <rect key="frame" x="43" y="100" width="328" height="370"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="370" id="TQH-j2-ObT"/>
+                                </constraints>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3q8-LU-1s5">
+                                <rect key="frame" x="183" y="647" width="50" height="31"/>
+                                <connections>
+                                    <action selector="candleAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="96U-r0-6AE"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Candle is" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAR-SB-GpO">
+                                <rect key="frame" x="109" y="530" width="136" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="136" id="v0J-Xc-fqJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Off" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6w-EV-A7Q">
+                                <rect key="frame" x="247" y="548.5" width="48.5" height="43"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="33"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qXQ-YQ-lM6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="1YE-1M-xQU"/>
+                            <constraint firstItem="wAR-SB-GpO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="109" id="97X-Td-eT4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3q8-LU-1s5" secondAttribute="bottom" constant="184" id="A9C-52-szh"/>
+                            <constraint firstItem="qXQ-YQ-lM6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bOv-R9-GEj"/>
+                            <constraint firstItem="qXQ-YQ-lM6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="do8-mE-7ep"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x6w-EV-A7Q" secondAttribute="trailing" constant="118.5" id="gZ4-IC-1rC"/>
+                            <constraint firstItem="3q8-LU-1s5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="183" id="hHp-wr-Ud5"/>
+                            <constraint firstItem="3q8-LU-1s5" firstAttribute="top" secondItem="wAR-SB-GpO" secondAttribute="bottom" constant="37" id="hcg-XZ-m2P"/>
+                            <constraint firstItem="wAR-SB-GpO" firstAttribute="centerY" secondItem="x6w-EV-A7Q" secondAttribute="centerY" id="kng-1o-5gg"/>
+                            <constraint firstItem="wAR-SB-GpO" firstAttribute="top" secondItem="qXQ-YQ-lM6" secondAttribute="bottom" constant="60" id="rSc-29-2no"/>
+                            <constraint firstItem="qXQ-YQ-lM6" firstAttribute="centerX" secondItem="3q8-LU-1s5" secondAttribute="centerX" id="w2o-Yj-8Zh"/>
+                            <constraint firstItem="x6w-EV-A7Q" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wAR-SB-GpO" secondAttribute="trailing" constant="2" id="wrK-jH-tVm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="candleImg" destination="qXQ-YQ-lM6" id="4p4-HL-pnm"/>
+                        <outlet property="candleText" destination="x6w-EV-A7Q" id="fsb-xc-gRh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="candle-off" width="400" height="560"/>
+    </resources>
+</document>

@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         
         // 변수에 이미지 할당
         img = UIImage(named: "instagram.jpg")
-        soptImg = UIImage(named: "sopt.tiff")
+        soptImg = UIImage(named: "sopt.jpg")
         afterBtn = UIImage(named: "like.png")
         beforeBtn = UIImage(named: "bin.png")
         
