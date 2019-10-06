@@ -35,7 +35,7 @@
     }
   }
   ```
-  ![](gifs/soptsatgram.gif)
+  ![](soptsatgram.gif)
 
 ### Switch-Image Action
 
