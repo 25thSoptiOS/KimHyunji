@@ -14,6 +14,8 @@
 		52633B6F2346FED8007279A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52633B6E2346FED8007279A9 /* Assets.xcassets */; };
 		52633B722346FED8007279A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52633B702346FED8007279A9 /* LaunchScreen.storyboard */; };
 		52633B7D2346FF9B007279A9 /* CandleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52633B7C2346FF9B007279A9 /* CandleVC.swift */; };
+		52633BD02349EDBB007279A9 /* candle-off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52633BCE2349EDBA007279A9 /* candle-off.jpg */; };
+		52633BD12349EDBB007279A9 /* candle-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52633BCF2349EDBA007279A9 /* candle-on.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		52633B712346FED8007279A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52633B732346FED8007279A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52633B7C2346FF9B007279A9 /* CandleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CandleVC.swift; path = switchCandle/Resources/ViewControllers/CandleVC.swift; sourceTree = SOURCE_ROOT; };
+		52633BCE2349EDBA007279A9 /* candle-off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "candle-off.jpg"; sourceTree = "<group>"; };
+		52633BCF2349EDBA007279A9 /* candle-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "candle-on.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 		52633B7B2346FEEE007279A9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				52633BCE2349EDBA007279A9 /* candle-off.jpg */,
+				52633BCF2349EDBA007279A9 /* candle-on.jpg */,
 				52633B692346FED7007279A9 /* ViewController.swift */,
 				52633B7C2346FF9B007279A9 /* CandleVC.swift */,
 			);
@@ -152,8 +158,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52633BD02349EDBB007279A9 /* candle-off.jpg in Resources */,
 				52633B722346FED8007279A9 /* LaunchScreen.storyboard in Resources */,
 				52633B6F2346FED8007279A9 /* Assets.xcassets in Resources */,
+				52633BD12349EDBB007279A9 /* candle-on.jpg in Resources */,
 				52633B6D2346FED7007279A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
