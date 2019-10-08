@@ -35,7 +35,7 @@
     }
   }
   ```
-  ![](./gifs/soptsatgram.gif)
+  ![](./assignment/gifs/soptsatgram.gif)
 
 ### Switch-Image Action
 
@@ -72,7 +72,7 @@
         
       }
   ```
-  ![](./gifs/candleonoff.gif)
+  ![](./assignment/gifs/candleonoff.gif)
 
 ### Background Color Change
 
@@ -95,4 +95,4 @@
         
       }
   ```
-  ![](./gifs/background.gif)
+  ![](./assignment/gifs/background.gif)
