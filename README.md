@@ -96,3 +96,65 @@
       }
   ```
   ![](./assignment/gifs/background.gif)
+  
+  ### Segment Control
+
+  - First View
+
+    ```swift
+          // 세그먼트 IBOutlet
+        @IBOutlet var leftRightSegControl: UISegmentedControl!
+        // segment 상태를 문자열로 Second View에 전달하기 위한 변수
+        var makeString: String!
+    
+          // Second View로 데이터를 전달하기 위한 오버라이드 함수 prepare
+          override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+              // 결과값을 보낼 View 지정
+            let destVC = segue.destination as! ResultVC
+              // Segment의 인덱스를 받아와서 해당 인덱스의 타이틀을 저장
+            let situation : String! = leftRightSegControl.titleForSegment(at:                                                                             leftRightSegControl.selectedSegmentIndex)
+            
+            makeString = situation
+            makeString += " 선택됨"
+            
+            // ViewController에서 정보를 받아 문자열 출력
+              // Second View의 info 문자열 변수에 makeString을 전달
+            destVC.info = makeString
+            
+            // ViewController에서 Index를 받아 세그먼트 출력
+              // Second View의 selectedSegmentIndex 정수 변수에 선택된 인덱스를 전달
+            destVC.selectedSegmentIndex = leftRightSegControl.selectedSegmentIndex
+        }
+    ```
+
+  - Second View
+
+    ```swift
+          // 세그먼트 IBOutlet
+          @IBOutlet var leftRightSegControl: UISegmentedControl!
+          // 라벨 IBOutlet
+        @IBOutlet var displayLabel: UILabel!
+    
+          // 세그먼트 인덱스를 저장할 변수
+          var selectedSegmentIndex: Int!
+          // 라벨 텍스트를 저장할 변수
+        var info: String!
+    
+          override func viewDidLoad() {
+            super.viewDidLoad()
+    
+            // String 변수를 사용해 segment의 text를 저장한다.
+            if let contentString = info
+            {
+                displayLabel.text = contentString
+            }
+            
+            // Integer 변수를 사용해 segment의 index를 저장한다.
+            if let whichSelect = selectedSegmentIndex
+            {
+                leftRightSegControl.selectedSegmentIndex = whichSelect
+            }
+        }
+    ```
+
+  ![](./assignment/gifs/segcontrol.gif)
