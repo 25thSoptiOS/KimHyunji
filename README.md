@@ -1,7 +1,7 @@
 ### 1st Assignment (Soptstagram)
 
-- Auto Layout
-
+  ![](./assignment/gifs/soptstagram.gif)
+  
 - Round Image
 
   ```swift
@@ -35,9 +35,10 @@
     }
   }
   ```
-  ![](./assignment/gifs/soptstagram.gif)
 
 ### Switch-Image Action
+
+  ![](./assignment/gifs/candleonoff.gif)
 
 - Switch on/off - Image change
 
@@ -72,9 +73,10 @@
         
       }
   ```
-  ![](./assignment/gifs/candleonoff.gif)
 
 ### Background Color Change
+
+  ![](./assignment/gifs/background.gif)
 
 - User Slider
 
@@ -95,9 +97,10 @@
         
       }
   ```
-  ![](./assignment/gifs/background.gif)
   
   ### Segment Control
+  
+   ![](./assignment/gifs/segcontrol.gif)
 
   - First View
 
@@ -157,4 +160,30 @@
         }
     ```
 
-  ![](./assignment/gifs/segcontrol.gif)
+### SignUp Example (Keyboard)
+
+  ![](./assignment/gifs/signup.gif)
+
+- Keyboard
+
+  ```swift
+  // delegate 처리를 위해 UITextFieldDelegate 추가
+  class signUpVC: UIViewController, UITextFieldDelegate
+  
+          // 키보드 done을 누르면 다음 텍스트 필드로 키보드 내려가게 하기
+      func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+          
+          if textField == self.userId {
+              
+              textField.resignFirstResponder()
+              
+              self.loginPassword.becomeFirstResponder()
+          }
+          
+          textField.resignFirstResponder()
+          
+          return true
+      }
+  ```
+
+  
