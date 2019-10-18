@@ -185,5 +185,9 @@
           return true
       }
   ```
+  
+  ### Login View (Stack View)
+  
+  ![](./assignment/gifs/loginStack.gif)
 
   
