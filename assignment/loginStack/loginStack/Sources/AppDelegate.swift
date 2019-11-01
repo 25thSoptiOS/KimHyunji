@@ -10,6 +10,9 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var bannerList: [Banner] = []
+    var workList: [Banner] = []
 
 
 
