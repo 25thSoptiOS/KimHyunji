@@ -6,5 +6,6 @@ target 'loginStack' do
   use_frameworks!
 
   # Pods for loginStack
-pod 'CHIPageControl', '~> 0.1.3'
+  pod 'Alamofire', '~> 4.8.2'
+  pod 'CHIPageControl', '~> 0.1.3'
 end

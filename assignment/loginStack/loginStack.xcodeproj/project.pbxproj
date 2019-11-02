@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52705977236D41A2002AB186 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52705976236D41A2002AB186 /* NetworkResult.swift */; };
+		52705979236D4252002AB186 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52705978236D4252002AB186 /* APIConstants.swift */; };
+		5270597B236D43ED002AB186 /* ResponseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270597A236D43ED002AB186 /* ResponseString.swift */; };
+		5270597D236D44F7002AB186 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270597C236D44F7002AB186 /* LoginService.swift */; };
+		5270597F236D5D4E002AB186 /* SignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270597E236D5D4E002AB186 /* SignupService.swift */; };
+		52705981236D5F4E002AB186 /* ResponseDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52705980236D5F4E002AB186 /* ResponseDefault.swift */; };
+		52705983236D6543002AB186 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52705982236D6543002AB186 /* SignupVC.swift */; };
 		529BC8F5236C50800031283F /* WorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529BC8F4236C50800031283F /* WorkCell.swift */; };
 		529BC8F7236C50C40031283F /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529BC8F6236C50C40031283F /* Work.swift */; };
 		529CFA0723584B3D00436AB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CFA0623584B3D00436AB0 /* AppDelegate.swift */; };
@@ -23,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52705976236D41A2002AB186 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		52705978236D4252002AB186 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		5270597A236D43ED002AB186 /* ResponseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseString.swift; sourceTree = "<group>"; };
+		5270597C236D44F7002AB186 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		5270597E236D5D4E002AB186 /* SignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupService.swift; sourceTree = "<group>"; };
+		52705980236D5F4E002AB186 /* ResponseDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseDefault.swift; sourceTree = "<group>"; };
+		52705982236D6543002AB186 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		529BC8F4236C50800031283F /* WorkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCell.swift; sourceTree = "<group>"; };
 		529BC8F6236C50C40031283F /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
 		529CFA0323584B3D00436AB0 /* loginStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +68,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52705975236D4172002AB186 /* APIServices */ = {
+			isa = PBXGroup;
+			children = (
+				52705976236D41A2002AB186 /* NetworkResult.swift */,
+				52705978236D4252002AB186 /* APIConstants.swift */,
+				5270597A236D43ED002AB186 /* ResponseString.swift */,
+				5270597C236D44F7002AB186 /* LoginService.swift */,
+				5270597E236D5D4E002AB186 /* SignupService.swift */,
+				52705980236D5F4E002AB186 /* ResponseDefault.swift */,
+			);
+			path = APIServices;
+			sourceTree = "<group>";
+		};
 		529CF9FA23584B3D00436AB0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,7 @@
 		529CFA1A23584B4D00436AB0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				52705975236D4172002AB186 /* APIServices */,
 				529CFA1C23584B6100436AB0 /* ViewControllers */,
 				529CFA0623584B3D00436AB0 /* AppDelegate.swift */,
 				529CFA0823584B3D00436AB0 /* SceneDelegate.swift */,
@@ -112,6 +140,7 @@
 				52AF9F7923642148005078C8 /* MainVC.swift */,
 				529BC8F4236C50800031283F /* WorkCell.swift */,
 				529BC8F6236C50C40031283F /* Work.swift */,
+				52705982236D6543002AB186 /* SignupVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -249,14 +278,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				529CFA0B23584B3D00436AB0 /* ViewController.swift in Sources */,
+				5270597D236D44F7002AB186 /* LoginService.swift in Sources */,
+				52705979236D4252002AB186 /* APIConstants.swift in Sources */,
 				52AF9F7623641CD5005078C8 /* BannerCell.swift in Sources */,
 				529BC8F7236C50C40031283F /* Work.swift in Sources */,
 				529CFA0723584B3D00436AB0 /* AppDelegate.swift in Sources */,
 				529CFA1E23584CE600436AB0 /* LoginVC.swift in Sources */,
 				529BC8F5236C50800031283F /* WorkCell.swift in Sources */,
+				52705983236D6543002AB186 /* SignupVC.swift in Sources */,
 				529CFA0923584B3D00436AB0 /* SceneDelegate.swift in Sources */,
 				52AF9F78236420B7005078C8 /* Banner.swift in Sources */,
+				5270597B236D43ED002AB186 /* ResponseString.swift in Sources */,
+				52705981236D5F4E002AB186 /* ResponseDefault.swift in Sources */,
+				5270597F236D5D4E002AB186 /* SignupService.swift in Sources */,
 				52AF9F7A23642148005078C8 /* MainVC.swift in Sources */,
+				52705977236D41A2002AB186 /* NetworkResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

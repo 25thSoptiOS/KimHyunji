@@ -50,10 +50,10 @@ extension MainVC: UICollectionViewDataSource {
             if collectionView == self.workCV {
                 let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "WorkCell", for: indexPath) as! WorkCell
     
-                let work = appDelegate!.workList[indexPath.row]
+//                let work = appDelegate!.workList[indexPath.row]
     
-                cell.workIdx = work.workIdx
-                cell.workImg.image = work.workMainImg
+//                cell.workIdx = work.workIdx
+//                cell.workImg.image = work.workMainImg
     
                 return cell
             }
@@ -92,5 +92,5 @@ extension MainVC: UICollectionViewDelegate {
         let currentPage = Int(ceil(x/w))
         print(currentPage)
         self.paging.set(progress: currentPage, animated: true)
-    }
+       }
 }
