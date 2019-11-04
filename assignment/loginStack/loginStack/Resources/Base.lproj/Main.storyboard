@@ -167,7 +167,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="doSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hL1-Bc-MEA"/>
-                                                    <segue destination="iZ6-ie-83Q" kind="show" id="qbI-ch-DgY"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -215,7 +214,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2697" y="-692"/>
+            <point key="canvasLocation" x="2707" y="-708"/>
         </scene>
         <!--MainVC-->
         <scene sceneID="QRb-y2-qew">
@@ -235,7 +234,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoIEum" translatesAutoresizingMaskIntoConstraints="NO" id="7m3-uF-a2x">
                                                 <rect key="frame" x="187.33333333333334" y="27.000000000000004" width="38.333333333333343" height="40.333333333333343"/>
                                             </imageView>
-                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Mft-34-osW" userLabel="BannerCV">
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Mft-34-osW" userLabel="BannerCV">
                                                 <rect key="frame" x="0.0" y="77.666666666666686" width="414" height="209"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
@@ -330,14 +329,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yh2-uq-Qjo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3343" y="-673"/>
+            <point key="canvasLocation" x="3339" y="-682"/>
         </scene>
         <!--SignupVC-->
         <scene sceneID="kqu-3m-ksy">
             <objects>
                 <viewController id="iZ6-ie-83Q" customClass="SignupVC" customModule="loginStack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kXf-fF-Lum">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmb-32-0R5">

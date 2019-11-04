@@ -60,7 +60,7 @@ struct LoginService {
                                         
                                     case true:
                                         print("success")
-                                        completion(.success(result.data))
+                                        completion(.success(result.data!))
                                     case false:
                                         completion(.requestErr(result.message))
                                     }
