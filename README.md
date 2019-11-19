@@ -1,7 +1,7 @@
 # 1_Week
 ### 1_Assignment (instagramSopt)
 
-  ![](./assignment/imgs/instagramSopt.png) {: width="50%" height="50%"}
+![](./assignment/imgs/instagramSopt.png)
   
 - Profile Round Image
 
@@ -40,7 +40,7 @@
 # 1_Advanced
 ### Switch-Image Action (switchCandle)
 
-  ![](./assignment/gifs/candleonoff.gif) {: width="50%" height="50%"}
+  ![](./assignment/gifs/candleonoff.gif)
 
 - Switch on/off - Image change
 
@@ -78,7 +78,7 @@
 
 ### Background Color Change (changeBackground)
 
-  ![](./assignment/imgs/changeBackground.png) {: width="50%" height="50%"}
+  ![](./assignment/imgs/changeBackground.png)
 
 - User Slider
 
@@ -102,8 +102,8 @@
   
   ### Segment Control (segmentControl)
   
-   ![](./assignment/imgs/segControl1.png) {: width="50%" height="50%"}
-   ![](./assignment/imgs/segControl2.png) {: width="50%" height="50%"}
+   ![](./assignment/imgs/segControl1.png) 
+   ![](./assignment/imgs/segControl2.png)
 
   - First View
 
@@ -165,8 +165,8 @@
 
 ### Keyboard Control (signUpExample)
 
-  ![](./assignment/imgs/signUpExample1.png) {: width="50%" height="50%"}
-  ![](./assignment/imgs/signUpExample2.png) {: width="50%" height="50%"}
+  ![](./assignment/imgs/signUpExample1.png) 
+  ![](./assignment/imgs/signUpExample2.png)
 
 - Keyboard
 
@@ -192,9 +192,9 @@
   
   # 2_Week
   ### Background Control Button (buttonBackground)
-  ![](./assignment/imgs/buttonBackground1.png) {: width="50%" height="50%"}
-  ![](./assignment/imgs/buttonBackground2.png) {: width="50%" height="50%"}
-  ![](./assignment/imgs/buttonBackground3.png) {: width="50%" height="50%"}
+  ![](./assignment/imgs/buttonBackground1.png) 
+  ![](./assignment/imgs/buttonBackground2.png) 
+  ![](./assignment/imgs/buttonBackground3.png) 
   
   - Button Control
   
@@ -217,7 +217,7 @@
   
   ### 2_Assignment (loginStack)
   
-  ![](./assignment/gifs/loginStack.gif) {: width="50%" height="50%"}
+  ![](./assignment/gifs/loginStack.gif) 
 
   
 
