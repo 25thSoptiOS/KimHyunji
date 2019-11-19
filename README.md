@@ -1,7 +1,7 @@
 # 1_Week
 ### 1_Assignment (instagramSopt)
 
-![](./assignment/imgs/instagramSopt.png)
+![](./assignment/imgs/instagramSopt.png | width="50%" height="50%")
   
 - Profile Round Image
 
