@@ -225,20 +225,20 @@
    }
    ```
 
-- Button Control
+    - Button Control
 
-```swift
- @IBAction func touchDigit(_ sender: UIButton) {
-     let digit = sender.currentTitle!
-     if userIsInTheMiddleOfTyping {
-         let textCurrentlyInDisplay = display.text!
-         display.text = textCurrentlyInDisplay + digit
-     } else {
-         display!.text = digit
+    ```swift
+     @IBAction func touchDigit(_ sender: UIButton) {
+         let digit = sender.currentTitle!
+         if userIsInTheMiddleOfTyping {
+             let textCurrentlyInDisplay = display.text!
+             display.text = textCurrentlyInDisplay + digit
+         } else {
+             display!.text = digit
+         }
+         userIsInTheMiddleOfTyping = true
      }
-     userIsInTheMiddleOfTyping = true
- }
- ```
+     ```
   
   ### 2_Assignment (loginStack)
   
