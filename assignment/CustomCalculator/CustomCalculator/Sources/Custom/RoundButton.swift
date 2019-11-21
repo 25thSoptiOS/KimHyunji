@@ -1,18 +1,17 @@
 //
-//  ACBtn.swift
-//  calculatorEx
+//  RoundButton.swift
+//  CustomCalculator
 //
-//  Created by 김현지 on 2019/10/24.
+//  Created by 김현지 on 2019/11/21.
 //  Copyright © 2019 김현지. All rights reserved.
 //
 
 import UIKit
 
-class ACBtn: UIButton {
-
+class RoundButton: UIButton {
     required init(coder aDecoder: NSCoder){
         super.init(coder: aDecoder)!
-        self.backgroundColor = UIColor(red: 166/255, green: 166/255, blue: 166/255, alpha: 1)
         self.layer.cornerRadius = self.bounds.size.width * 0.5
     }
+
 }

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  calculatorEx
+//  CustomCalculator
 //
-//  Created by 김현지 on 2019/10/24.
+//  Created by 김현지 on 2019/10/26.
 //  Copyright © 2019 김현지. All rights reserved.
 //
 

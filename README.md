@@ -210,6 +210,36 @@
   }
   ```
   
+  # 2_Advanced
+  ### Calculator Example (CustomCalculator)
+  <img src="./assignment/imgs/CustomCalculator1.png" width="30%" height="30%"></img>
+  
+  - Custom Button
+  
+  ```swift
+   class RoundButton: UIButton {
+       required init(coder aDecoder: NSCoder){
+           super.init(coder: aDecoder)!
+           self.layer.cornerRadius = self.bounds.size.width * 0.5
+       }
+   }
+   ```
+
+- Button Control
+
+```swift
+ @IBAction func touchDigit(_ sender: UIButton) {
+     let digit = sender.currentTitle!
+     if userIsInTheMiddleOfTyping {
+         let textCurrentlyInDisplay = display.text!
+         display.text = textCurrentlyInDisplay + digit
+     } else {
+         display!.text = digit
+     }
+     userIsInTheMiddleOfTyping = true
+ }
+ ```
+  
   ### 2_Assignment (loginStack)
   
   ![](./assignment/gifs/loginStack.gif) 
