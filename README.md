@@ -245,4 +245,8 @@
   ![](./assignment/gifs/loginStack.gif) 
 
   
-
+  # 7_Advanced
+  
+  ### TableView (TableViewEx)
+  
+    ![](./assignment/imgs/TableViewEx1.png) 
