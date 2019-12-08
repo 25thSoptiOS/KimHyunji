@@ -249,4 +249,4 @@
   
   ### TableView (TableViewEx)
   
-    ![](./assignment/imgs/TableViewEx1.png) 
+<img src="./assignment/imgs/TableViewEx1.png" width="30%" height="30%"></img>
