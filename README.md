@@ -2,7 +2,7 @@
 ### 1_Assignment (instagramSopt)
 
 <img src="./assignment/imgs/instagramSopt.png" width="30%" height="30%"></img>
-  
+
 - Profile Round Image
 
   ```swift
@@ -223,7 +223,7 @@
            self.layer.cornerRadius = self.bounds.size.width * 0.5
        }
    }
-   ```
+  ```
 
     - Button Control
 
@@ -238,7 +238,7 @@
          }
          userIsInTheMiddleOfTyping = true
      }
-     ```
+    ```
   
   ### 2_Assignment (loginStack)
   
@@ -249,4 +249,20 @@
   
   ### TableView (TableViewEx)
   
-    ![](./assignment/imgs/TableViewEx1.png) 
+    <img src="./assignment/imgs/TableViewEx1.png" width="30%" height="30%"></img> 
+
+
+
+# 7_Seminar
+
+### Social Login - Facebook (SocialLogin)
+
+<img src="./assignment/imgs/SocialLogin1.png" width="30%" height="30%"></img>
+
+<img src="./assignment/imgs/SocialLogin2.png" width="30%" height="30%"></img>
+
+<img src="./assignment/imgs/SocialLogin3.png" width="30%" height="30%"></img>
+
+<img src="./assignment/imgs/SocialLogin4.png" width="30%" height="30%"></img>
+
+<img src="./assignment/imgs/SocialLogin5.png" width="30%" height="30%"></img>
