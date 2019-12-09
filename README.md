@@ -258,11 +258,7 @@
 ### Social Login - Facebook (SocialLogin)
 
 <img src="./assignment/imgs/SocialLogin1.png" width="30%" height="30%"></img>
-
 <img src="./assignment/imgs/SocialLogin2.png" width="30%" height="30%"></img>
-
 <img src="./assignment/imgs/SocialLogin3.png" width="30%" height="30%"></img>
-
 <img src="./assignment/imgs/SocialLogin4.png" width="30%" height="30%"></img>
-
 <img src="./assignment/imgs/SocialLogin5.png" width="30%" height="30%"></img>
