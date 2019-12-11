@@ -17,6 +17,8 @@
 		524DA163239A67EA00065883 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DA162239A67EA00065883 /* Music.swift */; };
 		524DA167239A687C00065883 /* MusicTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DA166239A687C00065883 /* MusicTableVC.swift */; };
 		524DA169239A6ECD00065883 /* MusicDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DA168239A6ECD00065883 /* MusicDetailVC.swift */; };
+		52D6FCA523A1334600D31CD9 /* MusicCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6FCA423A1334600D31CD9 /* MusicCollectionVC.swift */; };
+		52D6FCA723A1388900D31CD9 /* MusicCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6FCA623A1388900D31CD9 /* MusicCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		524DA162239A67EA00065883 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		524DA166239A687C00065883 /* MusicTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableVC.swift; sourceTree = "<group>"; };
 		524DA168239A6ECD00065883 /* MusicDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailVC.swift; sourceTree = "<group>"; };
+		52D6FCA423A1334600D31CD9 /* MusicCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionVC.swift; sourceTree = "<group>"; };
+		52D6FCA623A1388900D31CD9 /* MusicCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				524DA162239A67EA00065883 /* Music.swift */,
 				524DA166239A687C00065883 /* MusicTableVC.swift */,
 				524DA168239A6ECD00065883 /* MusicDetailVC.swift */,
+				52D6FCA423A1334600D31CD9 /* MusicCollectionVC.swift */,
+				52D6FCA623A1388900D31CD9 /* MusicCollectionCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -174,9 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D6FCA523A1334600D31CD9 /* MusicCollectionVC.swift in Sources */,
 				524DA14E239A5FE900065883 /* ViewController.swift in Sources */,
 				524DA14A239A5FE900065883 /* AppDelegate.swift in Sources */,
 				524DA163239A67EA00065883 /* Music.swift in Sources */,
+				52D6FCA723A1388900D31CD9 /* MusicCollectionCell.swift in Sources */,
 				524DA14C239A5FE900065883 /* SceneDelegate.swift in Sources */,
 				524DA169239A6ECD00065883 /* MusicDetailVC.swift in Sources */,
 				524DA161239A64C200065883 /* MusicCell.swift in Sources */,
