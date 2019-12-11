@@ -10,9 +10,15 @@ import UIKit
 
 class MusicCollectionCell: UICollectionViewCell {
     
+    @IBOutlet var albumImg: UIImageView!
+    @IBOutlet var musicTitle: UILabel!
+    @IBOutlet var singer: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        albumImg.layer.cornerRadius = 3
+        albumImg.layer.masksToBounds = true
         
     }
     

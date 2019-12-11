@@ -249,7 +249,8 @@
   
   ### TableView (TableViewEx)
   
-    <img src="./assignment/imgs/TableViewEx1.png" width="30%" height="30%"></img> 
+    <img src="./assignment/imgs/TableViewEx1.png" width="30%" height="30%"></img>
+    <img src="./assignment/imgs/TableViewEx2.png" width="30%" height="30%"></img>
 
 
 
