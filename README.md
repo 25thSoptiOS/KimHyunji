@@ -4,7 +4,7 @@
 <img src="./assignment/imgs/instagramSopt.png" width="30%" height="30%"></img>
 
 - Profile Round Image
-
+..
   ```swift
   // 프로필 이미지 뷰
   @IBOutlet var imgSopt: UIImageView!
